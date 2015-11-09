@@ -1,0 +1,126 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #FCFDFF;
+}
+
+/*.page {
+  position: absolute;
+  height: 768px;
+  width: 1060px;
+  overflow: hidden;
+}
+  
+#topbar {
+  position: absolute;
+  height: 5.6em;
+  width: 100%;
+  background-color: white;
+}*/
+
+#logo img {
+  position: relative;
+  float: left;
+  display: inline;
+  width: 6.0em;
+  height: auto;
+  background: white;
+  top: 1.4em;
+  left: 2.5em;
+  border: 3%;
+  z-index: 100;
+}
+
+#nav {
+  width: 845px;
+  height: 5.5em;
+  background: white;
+  position: absolute;
+  float: left;
+  display: inline;
+  margin: 1em 0em 0em 1.8em;
+  z-index: 5;
+}
+
+#nav ul {
+  margin-left: 1.2em;
+  position: absolute;
+  display: inline;
+  float: left;
+  padding: 1.8em 2em 0em 2em;
+}
+
+#nav ul li ul {
+  position: absolute;
+  visibility: hidden;
+  font-size: .8em;
+}
+
+#nav a {
+  text-decoration: none;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.6em;
+  color: black;
+  vertical-align: top;
+}
+
+#nav ul li {display: inline; padding: 0px 5px 2px 9px; margin: 0em 1.9em 0em .3em;}
+/*main nav hover*/ #nav > ul li:hover a {color: orange; border-radius: 4px;}
+#nav ul li:hover > ul li    {display: block; width: auto; margin: 3px 5px 7px 5px;}
+#nav ul li:hover > ul li a  {color: #363939; text-align: center;}
+#nav ul li ul li:hover > a  {color: white; text-align: left; padding: 4px; background-color: orange; border-radius: 4px;}
+
+#nav ul .about:hover > ul     {visibility: visible; left:  9.1em; top: 3.7em;}
+#nav ul .events:hover > ul    {visibility: visible; left: 19.9em; top: 3.7em;}
+#nav ul .partners:hover > ul  {visibility: visible; left: 31.4em; top: 3.7em;}
+
+.sm img {
+  width: 1.4em;
+  height: auto;
+}
+
+#SMFB {
+  position: relative;
+  z-index: 500;
+  float: right;
+  right: 2em;
+  margin: 1em .2em 0em 0em;
+}
+
+#SMTW {
+  position: relative;
+  z-index: 500;
+  float: right;
+  right: 2em;
+  margin: 1em .2em 0em 0em;
+}
+
+#SMIG {
+  position: relative;
+  z-index: 500;
+  float: right;
+  right: 2em;
+  margin: 1em 0em 0em .2em;
+}
+
+.bar {
+  position: relative;
+  top: 5.6em;
+  height: 6.8em;
+  width: 100%;
+  background-color: white /*#CCEDED*/;
+}
+
+.cal {
+  position: relative;
+  margin-top: 15em;
+  margin-left: 2.6%;
+}
+
+.bottombar {
+  position: relative;
+  bottom: 0em;
+  background-color: white/*#CCEDED*/;
+  height: 6.5em;
+  width: 100%/*999em*/;
+}

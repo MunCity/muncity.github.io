@@ -1,0 +1,81 @@
+body {
+  background-color: white;
+}
+
+.topbar {
+  position: fixed;
+  top: 0em;
+  margin-left: -1em;
+  z-index: 1;
+  height: 6em;
+  width: 300em;
+  background-color: white;
+}
+
+#logo img {
+  position: fixed;
+  width: 9.9em;
+  height: auto;
+  margin-left: .4em;
+  top: .6em;
+  background: white;
+  padding: 0em .5em .4em .5em;
+  border-radius: 3%;
+  z-index: 1;
+}
+
+#nav {
+  width: 820px;
+  display: inline;
+  position: fixed;
+  margin-left: 10em;
+  padding: .4em 1em 1em 1em;
+  top: 1.3em;
+  z-index: 1;
+}
+
+#nav ul li ul { 
+  visibility: hidden;
+  position: absolute;
+  font-size: .8em;
+}
+
+#nav a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.8em;
+  margin: 2px 12px 2px 12px;
+  padding: 2px 7px 4px 7px;
+}
+
+#nav ul li {
+  display: inline;
+}
+#nav ul li a {padding-bottom: 1em;}
+
+#nav ul li:hover { background-color: orange; border-radius: 4px;}
+#nav ul .about:hover > ul { visibility: visible; top: 6em; left: 11em; z-index: 1;}
+#nav ul li:hover > ul li { display: block; width: auto; margin: 3px 0px 7px 0px; z-index: 1;}
+#nav ul li:hover > ul li a { color: white; }
+#nav ul li ul li:hover > a { color: white; }
+
+#nav ul .events:hover > ul { visibility: visible; left: 21.6em; top: 6em; }
+#nav ul .partners:hover > ul { visibility: visible; left: 33.4em; top: 6em; }
+
+.bar {
+  position: fixed;
+  top: 6em;
+  margin-left: -.5em;
+  height: 7.3em;
+  width: 300em;
+  background-color: #009999;
+}
+
+.cal {
+  margin-top: 15em;
+  margin-left: 2.6%;
+  z-index: -2;
+}
+
+                            
