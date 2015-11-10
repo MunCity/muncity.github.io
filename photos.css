@@ -119,7 +119,7 @@ body {
   width: 100%/*999em*/;
 }
 
-.photos {
+.photos img {
   position: absolute;
   top: 13.5em;
   width: 7em;
