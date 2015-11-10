@@ -103,13 +103,16 @@ body {
   margin: 1em 0em 0em .2em;
 }
 
+/*
 .bar {
   position: relative;
   top: 5.6em;
   height: 6.8em;
   width: 100%;
-  background-color: white /*#CCEDED*/;
+  background-color: white;
 }
+*/
+
 
 .bottombar {
   position: relative;
@@ -123,7 +126,18 @@ body {
   position: relative;
   margin: 1em 1em 1em 1em;
   top: 13.5em;
-  width: 25em;
-  height: auto;
+}
+
+#h {
+  width: auto;
+  height: 30em;
+  border: 3px;
+}
+
+
+#v {
+  width: auto;
+  height: 30em;
+  border: 3px;
 }
 
