@@ -125,16 +125,16 @@ body {
 .photos {
   position: relative;
   display: inline;
-  margin: 1em 1em 1em 1em;
-  top: 13.5em;
+  padding: .5em .5em .5em .5em;
+  top: 13em;
 }
 
 #h img {
   width: auto;
   height: 15em;
-  border: 3px;
-  max-width: 35%;
-  max-height: 40%;
+  max-width: 80%;
+  max-height: auto;
+  border: 1px solid orange;
 }
 
 
@@ -143,6 +143,6 @@ body {
   height: 30em;
   max-width: auto;
   max-height: 35%;
-  border: 3px;
+  border: 1px solid orange;
 }
 
