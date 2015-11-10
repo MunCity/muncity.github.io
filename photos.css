@@ -122,7 +122,7 @@ body {
   width: 100%/*999em*/;
 }
 
-.photos img {
+.photos {
   position: relative;
   margin: 1em 1em 1em 1em;
   top: 13.5em;
