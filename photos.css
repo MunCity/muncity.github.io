@@ -120,7 +120,7 @@ body {
 }
 
 .photos img {
-  position: relative;
+  position: absolute;
   top: 13.5em;
   width: 25em;
   height: auto;
