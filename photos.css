@@ -122,6 +122,7 @@ body {
 .photos {
   position: absolute;
   top: 13.5em;
-  width: 60%;
+  width: 10em;
+  height: auto;
 }
 
