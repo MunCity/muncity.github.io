@@ -47,7 +47,7 @@ body {
   position: absolute;
   display: inline;
   float: left;
-  padding: 1.8em 2em 0em 2em;
+  padding: 1em 2em 0em 2em;
 }
 
 #nav ul li ul {
@@ -66,7 +66,7 @@ body {
 
 #nav ul li {display: inline; padding: 0px 5px 2px 9px; margin: 0em 1.9em 0em .3em;}
 /*main nav hover*/ #nav > ul li:hover a {color: orange; border-radius: 4px;}
-#nav ul li:hover > ul li    {display: block; width: auto; margin: 3px 5px 7px 5px;}
+#nav ul li:hover > ul li    {display: block; width: auto; margin: 1px 5px 8px 5px;}
 #nav ul li:hover > ul li a  {color: #363939; text-align: center;}
 #nav ul li ul li:hover > a  {color: white; text-align: left; padding: 4px; background-color: orange; border-radius: 4px;}
 

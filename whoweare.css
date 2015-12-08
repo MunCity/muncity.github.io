@@ -132,6 +132,16 @@ body {
   z-index: -3;
 }
 
+.grace img {
+  position: relative;
+  display: inline block;
+  left: -20em;
+  float: left;
+  width: 20em;
+  height: auto;
+  z-index: 30;
+}
+
 .hr {
   position: relative;
   top: 14.4em;
