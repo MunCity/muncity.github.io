@@ -135,7 +135,7 @@ body {
 .photos img {
   position: relative;
   display: block;
-  margin: 10em 2em 0em 13em;
+  margin: 8.5em 2em 0em 13em;
   float: left;
   width: 13em;
   height: auto;
@@ -144,7 +144,7 @@ body {
 
 .hr {
   position: relative;
-  top: 14.4em;
+  top: 10em;
   border: none;
   background-color: orange;
   z-index: 15;
