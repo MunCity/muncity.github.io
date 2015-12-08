@@ -132,10 +132,10 @@ body {
   z-index: -3;
 }
 
-.grace img {
+.photos img {
   position: relative;
-  display: inline block;
-  left: -20em;
+  display: block;
+  margin: 10em 6em 10em 6em;
   float: left;
   width: 20em;
   height: auto;
