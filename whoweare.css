@@ -135,7 +135,7 @@ body {
 .photos img {
   position: relative;
   display: block;
-  margin: 10em 2em 7em 10em;
+  margin: 10em 2em 0em 13em;
   float: left;
   width: 13em;
   height: auto;
