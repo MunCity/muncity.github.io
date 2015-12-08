@@ -113,15 +113,15 @@ body {
 
 .cal {
   position: relative;
-  margin-top: 15em;
+  margin-top: 10em;
   margin-left: 2.6%;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
-.bottombar {
+/*.bottombar {
   position: relative;
   bottom: 0em;
-  background-color: white/*#CCEDED*/;
+  background-color: white or #CCEDED;
   height: 6.5em;
-  width: 100%/*999em*/;
-}
+  width: 100% or 999em;
+}*/
