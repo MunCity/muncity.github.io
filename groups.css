@@ -112,9 +112,11 @@ body {
 }
 
 .groups {
+  position: relative;
   top: 10em;
   font-family: 'Playfair Display SC', serif;
-  font-size: 1.6em;
+  font-size: 2em;
+  width: 70%;
   color: black;
 }
 
