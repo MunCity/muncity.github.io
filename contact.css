@@ -103,13 +103,13 @@ body {
   margin: 1em 0em 0em .2em;
 }
 
-.bar {
+/*.bar {
   position: relative;
   top: 5.6em;
   height: 6.8em;
   width: 100%;
-  background-color: white /*#CCEDED*/;
-}
+  background-color: white;
+}*/
 
 #contact-form {
   position: absolute;
