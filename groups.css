@@ -111,9 +111,9 @@ body {
   background-color: white /*#CCEDED*/;
 }
 
-.groups {
+.explanation {
   position: relative;
-  top: 10em;
+  top: 5em;
   font-family: 'Playfair Display SC', serif;
   font-size: 2em;
   width: 70%;
