@@ -114,6 +114,7 @@ body {
 .explanation {
   position: absolute;
   top: 10em;
+  margin: 1em auto auto auto;
   font-family: 'Playfair Display SC', serif;
   font-size: 2em;
   width: 70%;
