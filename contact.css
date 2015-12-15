@@ -103,21 +103,13 @@ body {
   margin: 1em 0em 0em .2em;
 }
 
-/*.bar {
-  position: relative;
-  top: 5.6em;
-  height: 6.8em;
-  width: 100%;
-  background-color: white;
-}*/
-
 #contact-form {
   position: absolute;
   font-family: 'Playfair Display SC', serif;
   background-color: #F2F7F9;
   width: 470px;
   padding: 20px 20px 20px 45px;
-  margin: 6em 0em 5em 16.3em;
+  margin: 3em 0em 5em 16.3em;
   border: 6px solid #8FB5C1;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
