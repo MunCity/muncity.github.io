@@ -112,18 +112,17 @@ if(isset($_SESSION['cf_returndata'])){
   <label for="interest">I am interested in: <span class="required">*</span></label>
   <select id="interest" name="interest">
     <option value="general">General</option>
-    <option value="involve">Getting Involved</option>
+    <option value="ask">Asking A Question</option>
     <option value="event">Holding An Event</option>
-    <option value="learning">Learning more about MunCity</option>
-    <option value="work">Partnering with MunCity</option>
+    <option value="learning">Learning More About MunCity</option>
+    <option value="work">Partnering With MunCity</option>
   </select>
 
   <label for="request">How can we help you? (Check all that apply) </label>
-      <input type="checkbox" id="checkbox" name="service" value="consultation"> Consultation
+      <input type="checkbox" id="checkbox" name="service" value="lesson"> Lessons
       <input type="checkbox" id="checkbox" name="service" value="music"> Music
-      <input type="checkbox" id="checkbox" name="service" value="recording"> Audio Recording
+      <input type="checkbox" id="checkbox" name="service" value="recording"> Audio Recordings
       <input type="checkbox" id="checkbox" name="service" value="recording"> Video Recordings
-      <input type="checkbox" id="checkbox" name="service" value="work"> Work
          
         <label for="message">Message: <span class="required">*</span></label>
         <textarea id="message" name="message" placeholder="Your message must be greater than 20 characters" required="required" data-minlength="20"></textarea>
