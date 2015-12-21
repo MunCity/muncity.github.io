@@ -70,7 +70,7 @@
   <div class="bar"></div>
 
     <div id="contact-form" class="clearfix">
-      <h3>Thank you for your interest in MunCity Entertainment!</h3>
+      <h3>Thank you for your interest in MunCity!</h3>
       <h4>Fill out the form below to get in touch with us!</h4>
 
 <?php
@@ -97,32 +97,33 @@ if(isset($_SESSION['cf_returndata'])){
     ?>
   </ul>
 
-<p id="success" class="<?php echo ($sr && $cf['form_ok']) ? 'visible' : ''; ?>">Thanks for your message! We will get back to you ASAP!</p>
+  <p id="success" class="<?php echo ($sr && !$cf['form_ok']) ? 'visible' : ''; ?>">Thank you! We will get back to you as soon as we can!</p>
   <form method="post" action="process.php">
 
   <label for="name"><span class="required"></span></label>
-  <input type="text" id="name" name="name" value="" placeholder="YOUR NAME" required="required" autofocus="autofocus" />
+  <input type="text" id="name" name="name" value="" placeholder="your name" required="required" autofocus="autofocus" />
          
   <label for="email">Email Address: <span class="required">*</span></label>
-  <input type="email" id="email" name="email" value="" placeholder="johndoe@example.com" required="required" />
+  <input type="email" id="email" name="email" value="" placeholder="email@aplace.com" required="required" />
          
   <label for="telephone">Phone Number: </label>
   <input type="tel" id="telephone" name="telephone" value="" />
          
-  <label for="interest">I am interested in: <span class="required">*</span></label>
+  <label for="interest">I would like to: <span class="required">*</span></label>
   <select id="interest" name="interest">
-    <option value="general">General</option>
-    <option value="ask">Asking A Question</option>
-    <option value="event">Holding An Event</option>
-    <option value="learning">Learning More About MunCity</option>
-    <option value="work">Partnering With MunCity</option>
+    <option value="ask">Ask A Question</option>
+    <option value="event">Have MunCity Music at My Special Event</option>
+    <option value="learning">Learn More About MunCity</option>
+    <option value="work">Partner With MunCity At My School</option>
+    <option value="general">Other</option>
   </select>
 
   <label for="request">How can we help you? (Check all that apply) </label>
-      <input type="checkbox" id="checkbox" name="service" value="lesson"> Lessons
+      <input type="checkbox" id="checkbox" name="service" value="lesson"> Lesson
+      <input type="checkbox" id="checkbox" name="service" value="arrange"> Arrangement
+      <input type="checkbox" id="checkbox" name="service" value="compose"> Composition
       <input type="checkbox" id="checkbox" name="service" value="music"> Music
-      <input type="checkbox" id="checkbox" name="service" value="recording"> Audio Recordings
-      <input type="checkbox" id="checkbox" name="service" value="recording"> Video Recordings
+      <input type="checkbox" id="checkbox" name="service" value="record"> Recording
          
         <label for="message">Message: <span class="required">*</span></label>
         <textarea id="message" name="message" placeholder="Your message must be greater than 20 characters" required="required" data-minlength="20"></textarea>
