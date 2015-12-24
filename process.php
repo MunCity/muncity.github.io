@@ -73,5 +73,5 @@ if(empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUE
     header('location: ' . $_SERVER['HTTP_REFERER']);
 }
 }
-                            
+ ?>                           
                             
