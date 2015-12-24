@@ -36,7 +36,7 @@ if($formok){
     $headers = "From: contact@muncity.com" . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
      
-    $emailbody = "<p>You have received a new message from the contact form on your website.</p>
+    $emailbody = "<p>You have received a new message from the contact form on MunCity.</p>
                   <p><strong>Name: </strong> {$name} </p>
                   <p><strong>Email Address: </strong> {$email} </p>
                   <p><strong>Telephone: </strong> {$telephone} </p>
@@ -72,23 +72,6 @@ if(empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUE
     //redirect back to form
     header('location: ' . $_SERVER['HTTP_REFERER']);
 }
-}
-server {
-    listen       80;
-    server_name  localhost;
-
-    location / {
-        root   html;
-        index  index.html index.htm;
-    }
-
-    error_page  404     /404.html;
-    error_page  403     /403.html;
-
-    # To allow POST on static pages
-    error_page  405     =200 $uri;
-
-    # ...
 }
  ?>                           
                             
